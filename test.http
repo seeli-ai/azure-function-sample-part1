@@ -1,0 +1,11 @@
+###
+
+POST http://localhost:7071/api/ask_for_translation
+Content-Type: application/json
+
+{
+  "text": "Hello, how are you?",
+  "from": "en",
+  "to": "es",
+  "user": "test"
+}
