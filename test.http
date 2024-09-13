@@ -1,5 +1,5 @@
 ###
-
+# http://localhost:7071/api/ask_for_translation 
 POST http://localhost:7071/api/ask_for_translation
 Content-Type: application/json
 
