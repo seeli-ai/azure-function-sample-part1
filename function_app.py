@@ -2,6 +2,9 @@ import azure.functions as func
 import logging
 import json
 import uuid
+from dotenv import load_dotenv
+load_dotenv()
+
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
